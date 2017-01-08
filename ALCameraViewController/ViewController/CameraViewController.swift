@@ -172,14 +172,6 @@ public class CameraViewController: UIViewController {
         NotificationCenter.default.removeObserver(self)
     }
     
-    public override var prefersStatusBarHidden: Bool {
-        return true
-    }
-    
-    public override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation {
-        return UIStatusBarAnimation.slide
-    }
-    
     /**
      * Configure the background of the superview to black
      * and add the views on this superview. Then, request
